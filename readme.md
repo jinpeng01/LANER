@@ -1,7 +1,8 @@
 Cross Domain NER
 ==========
 
-
+## Paper
+A Label-Aware Autoregressive Framework for Cross-Domain NER (Accepted in NAACL2022-Findings)
 
 ## Requirements
 
