@@ -2,6 +2,7 @@ Cross Domain NER
 ==========
 
 
+
 ## Requirements
 
 - Python 3 (tested on 3.7)
@@ -11,8 +12,6 @@ Cross Domain NER
 We use a Linux platform with A100 GPU to train our model.
 
 ==============================
-
-This repo contains the PyTorch code following [CrossNER](https://github.com/zliucr/CrossNER)
 
 
 ## Data
