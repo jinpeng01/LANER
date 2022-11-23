@@ -2,7 +2,25 @@ Cross Domain NER
 ==========
 
 ## Paper
-A Label-Aware Autoregressive Framework for Cross-Domain NER (Accepted in NAACL2022-Findings)
+[A Label-Aware Autoregressive Framework for Cross-Domain NER](https://aclanthology.org/2022.findings-naacl.171/) (Accepted in NAACL2022-Findings)
+
+## Citations
+
+If you use or extend our work, please cite our paper at NAACL-2022.
+```
+@inproceedings{hu-etal-2022-label,
+    title = "A Label-Aware Autoregressive Framework for Cross-Domain {NER}",
+    author = "Hu, Jinpeng  and
+      Zhao, He  and
+      Guo, Dan  and
+      Wan, Xiang  and
+      Chang, Tsung-Hui",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
+    month = jul,
+    year = "2022"
+}
+```
+
 
 ## Requirements
 
