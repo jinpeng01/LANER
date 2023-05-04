@@ -6,6 +6,7 @@ Cross Domain NER
 
 ## Citations
 
+
 If you use or extend our work, please cite our paper at NAACL-2022 Findings.
 ```
 @inproceedings{hu-etal-2022-label,
