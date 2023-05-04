@@ -28,6 +28,7 @@ If you use or extend our work, please cite our paper at NAACL-2022 Findings.
 - Python 3 (tested on 3.7)
 - PyTorch (tested on 1.7)
 - Transformers (tested on 3.0.2)
+- seqeval (tested on 0.0.12)
 
 We use a Linux platform with A100 GPU to train our model.
 
