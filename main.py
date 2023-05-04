@@ -154,18 +154,11 @@ def train(params):
             break
 
     dev_max_index = dev_target.index(max(dev_target))
-    test_max_index = test_target.index(max(test_target))
-    # import pdb
-    # pdb.set_trace()
 
     logger.info("Best model basd on dev data.")
     logger.info("\n%s", test_detail_results[dev_max_index])
 
-    logger.info("Best model basd on test data.")
-    logger.info("\n%s", test_detail_results[test_max_index])
-
     logger.info("Best model basd on dev data. F1: %.4f." % test_target[dev_max_index])
-    logger.info("Best model basd on test data. F1: %.4f." % max(test_target))
 
 
 

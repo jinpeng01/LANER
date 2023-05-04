@@ -11,7 +11,7 @@ python main.py \
 --exp_id ai_experiment \
 --num_tag 29 \
 --batch_size 16 \
---ckpt ./CrossNER_pre_trained/ai_spanlevel_integrated/pytorch_model.bin \
+--ckpt /mntnfs/diis_data3/chenqian/workspace/CrossNER_pre_trained/ai_spanlevel_integrated/pytorch_model.bin \
 --tgt_dm ai \
 --target_sequence \
 --seed 8888 \
