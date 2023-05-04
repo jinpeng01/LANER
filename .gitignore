@@ -1,1 +1,3 @@
 train_all_no_CL_RNN_connect_back.sh
+/experiments/
+/calculate_average/

@@ -2,7 +2,25 @@ Cross Domain NER
 ==========
 
 ## Paper
-A Label-Aware Autoregressive Framework for Cross-Domain NER (Accepted in NAACL2022-Findings)
+[A Label-Aware Autoregressive Framework for Cross-Domain NER](https://aclanthology.org/2022.findings-naacl.171/) (Accepted in NAACL2022-Findings)
+
+## Citations
+
+If you use or extend our work, please cite our paper at NAACL-2022 Findings.
+```
+@inproceedings{hu-etal-2022-label,
+    title = "A Label-Aware Autoregressive Framework for Cross-Domain {NER}",
+    author = "Hu, Jinpeng  and
+      Zhao, He  and
+      Guo, Dan  and
+      Wan, Xiang  and
+      Chang, Tsung-Hui",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
+    month = jul,
+    year = "2022"
+}
+```
+
 
 ## Requirements
 
@@ -18,12 +36,12 @@ We use a Linux platform with A100 GPU to train our model.
 ## Data
 We give an example about the example source domain data in the `ner_data/conll2003` and target domain data in the `ner_data/ai`.
 
-##DAPT
+## DAPT
 For DAPT, we follow [CrossNER](https://github.com/zliucr/CrossNER)
 
-##Training 
+## Training 
 
-###Train the NER model with DAPT
+### Train the NER model with DAPT
 We give an example train shell file, you just need to run
 ```
 python main.py \
@@ -42,7 +60,7 @@ python main.py \
 ```
 `ckpt` is the path to your pre-trained model after DAPT.
 
-###Train the NER model without DAPT
+### Train the NER model without DAPT
 ```
 python main.py \
 --exp_name ai_experiment_wo_DAPT \
